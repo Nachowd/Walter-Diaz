@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #435058;
+}
+
+.navbar-brand {
+  color: #DCF763 !important;
+}
+
+.nav-link {
+  color: #DCF763 !important;
+}
+
+.copy {
+  float: inline-start;
+  font-size: 15px;
+}
+
+.redes {
+  float: right;
+}
+.redes a {
+  color: black;
+}
+.redes a :hover {
+  color: #DCF763;
+}
+
+footer {
+  height: 60px;
+  width: auto;
+  font-size: 20px;
+  padding: 15px;
+  font-family: "Inika", serif;
+  background-color: #DCF763;
+}
+footer a {
+  color: #435058;
+  text-decoration: none;
+}
+footer a :hover {
+  color: black;
+}
+
+main {
+  height: 100%;
+  width: auto;
+  margin: 0;
+  padding: 10px;
+  font-family: "Inika", serif;
+  text-shadow: black 12px;
+  background-image: url(./multimedia/taller/welding-1838986_1280.jpg);
+  background-size: 200% 150%;
+  position: relative;
+  animation: animacion 15s infinite;
+}
+
+.logo {
+  color: #DCF763 !important;
+  font-family: "Inika", serif;
+  float: left;
+  padding: 2px;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.barra {
+  float: right;
+  text-transform: uppercase;
+}
+.barra ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.barra a {
+  text-decoration: none;
+  color: #DCF763;
+}
+.barra a :hover {
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #DCF763 !important;
+  font-size: 35px;
+}
+
+h6 {
+  color: black !important;
+}
+
+#galeria-viejos img {
+  width: 100%;
+  height: 250px;
+}
+
+#galeria-viejos .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+
+#galeria-restaurados img {
+  width: 100%;
+  height: 250px;
+}
+
+#galeria-restaurados .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+
+#galeria-viejos img:hover {
+  border: 2px solid w white;
+}
+
+#galeria-restaurados img:hover {
+  border: 2px solid w white;
+}
+
+p {
+  color: #DCF763 !important;
+  font-size: 20px;
+}
+
+.ul,
+li,
+dl,
+dd,
+dt {
+  color: #DCF763 !important;
+}
+
+#contacto {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.contacto,
+.ventas,
+.nosotros {
+  color: #DCF763;
+  text-align: center;
+}
+
+.form-container {
+  width: 600px;
+  background-color: #435058;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  color: #DCF763;
+  border: 1px solid black;
+}
+.form-container h4 {
+  font-size: 30px;
+  padding: 30px;
+}
+
+.foto1:hover {
+  border: 1px solid #DCF763;
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+.btn {
+  border: 1px solid black;
+  background-color: #DCF763;
+  color: #435058;
+}
+.btn :hover {
+  color: black;
+}
+
+.text {
+  text-shadow: 2px 2px black;
+}
+
+@keyframes animacion {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+@media (max-width: 600px) {
+  .form-container {
+    width: 350px;
+    background-color: #435058;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    color: #DCF763;
+    border: 1px solid black;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
