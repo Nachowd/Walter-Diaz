@@ -2,7 +2,8 @@ $col1: #DCF763;
 $col2: #435058;
 $col3: white;
 $col4: black;
-$font1: "Inika", serif;
+$font1: "Inika",
+serif;
 
 
 * {
@@ -15,9 +16,10 @@ $font1: "Inika", serif;
 .navbar {
     background-color: $col2;
 }
+
 .navbar-brand {
-        color: $col1 !important;
-    }
+    color: $col1 !important;
+}
 
 
 .nav-link {
@@ -109,8 +111,8 @@ h5 {
     font-size: 35px;
 }
 
-h6 {
-    color: $col4 !important;
+.titulo {
+    text-align: center;
 }
 
 #galeria-viejos img {
@@ -188,24 +190,34 @@ dt {
     transform: scale(1.1);
     transition: 2s;
 }
+
 .btn {
     border: 1px solid $col4;
     background-color: $col1;
     color: $col2;
-        :hover {
-            color: $col4;
-                }
+
+    :hover {
+        color: $col4;
     }
+}
 
 .text {
     text-shadow: 2px 2px black;
-}    
+}
 
 
 @keyframes animacion {
-    0%{background-position: 0 50%;}
-    50%{background-position: 100% 50%;}
-    100%{background-position: 0 50%;}
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
 }
 
 @media (max-width:600px) {
@@ -217,6 +229,6 @@ dt {
         margin-top: 100px;
         border-radius: 10px;
         color: $col1;
-        border: 1px solid $col4;    
+        border: 1px solid $col4;
     }
 }
