@@ -54,7 +54,7 @@ main {
   padding: 10px;
   font-family: "Inika", serif;
   text-shadow: black 12px;
-  background-image: url(./multimedia/taller/welding-1838986_1280.jpg);
+  background-image: url(./multimedia/taller/img_e0766.jpg);
   background-size: 200% 150%;
   position: relative;
   animation: animacion 15s infinite;
@@ -93,6 +93,11 @@ h4,
 h5 {
   color: #DCF763 !important;
   font-size: 35px;
+}
+
+.tcar {
+  color: black !important;
+  text-shadow: 1px 1px #DCF763;
 }
 
 .titulo {
