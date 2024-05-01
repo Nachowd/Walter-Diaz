@@ -17,7 +17,18 @@ serif;
     background-color: $col2;
 }
 
+.header-image {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
 .navbar-brand {
+    float: left;
+    padding: 10px;
     color: $col1 !important;
 }
 
@@ -68,8 +79,8 @@ main {
     padding: 10px;
     font-family: $font1;
     text-shadow: black 12px;
-    background-image: url(./multimedia/taller/img_e0766.jpg);
-    background-size: 200% 150%;
+    background-image: url(./multimedia/taller/mood-4639945_1280.jpg);
+    background-size: 150% 150%;
     position: relative;
     animation: animacion 15s infinite;
 }
@@ -82,6 +93,7 @@ main {
     font-size: 35px;
     text-transform: uppercase;
 }
+
 
 .barra {
     float: right;
