@@ -1,0 +1,256 @@
+$col1: #DCF763;
+$col2: #435058;
+$col3: white;
+$col4: black;
+$font1: "Inika",
+serif;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background-color: $col2;
+}
+
+.header-image {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 10px;
+    color: $col1 !important;
+}
+
+
+.nav-link {
+    color: $col1 !important;
+}
+
+.copy {
+    float: inline-start;
+    font-size: 15px;
+}
+
+.redes {
+    float: right;
+
+    a {
+        color: $col4;
+
+        :hover {
+            color: $col1;
+        }
+    }
+}
+
+footer {
+    height: 60px;
+    width: auto;
+    font-size: 20px;
+    padding: 15px;
+    font-family: $font1;
+    background-color: $col1;
+
+    a {
+        color: $col2;
+        text-decoration: none;
+
+        :hover {
+            color: $col4;
+        }
+    }
+}
+
+main {
+    height: 100%;
+    width: auto;
+    margin: 0;
+    padding: 10px;
+    font-family: $font1;
+    text-shadow: black 12px;
+    background-image: url(./multimedia/taller/mood-4639945_1280.jpg);
+    background-size: 150% 150%;
+    position: relative;
+    animation: animacion 15s infinite;
+}
+
+.logo {
+    color: $col1 !important;
+    font-family: $font1;
+    float: left;
+    padding: 2px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+
+.barra {
+    float: right;
+    text-transform: uppercase;
+
+    ul li {
+        list-style: none;
+        display: inline-block;
+    }
+}
+
+.barra a {
+    text-decoration: none;
+    color: $col1;
+
+    :hover {
+        color: $col4;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: $col1 !important;
+    font-size: 35px;
+}
+
+.tcar {
+    color: $col4 !important;
+    text-shadow: 1px 1px $col1;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.call {
+    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 15px;
+}
+
+#galeria-viejos img {
+    width: 100%;
+    height: 250px;
+}
+
+#galeria-viejos .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria-restaurados img {
+    width: 100%;
+    height: 250px;
+}
+
+#galeria-restaurados .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria-viejos img:hover {
+    border: 2px solid w$col3;
+}
+
+#galeria-restaurados img:hover {
+    border: 2px solid w$col3;
+}
+
+p {
+    color: $col1 !important;
+    font-size: 20px;
+}
+
+.ul,
+li,
+dl,
+dd,
+dt {
+    color: $col1 !important;
+}
+
+#contacto {
+    color: $col3;
+    padding: 20px;
+    text-align: center;
+}
+
+.contacto,
+.ventas,
+.nosotros {
+    color: $col1;
+    text-align: center;
+}
+
+.form-container {
+    width: 600px;
+    background-color: $col2;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    color: $col1;
+    border: 1px solid $col4;
+
+    h4 {
+        font-size: 30px;
+        padding: 30px;
+    }
+}
+
+.foto1:hover {
+    border: 1px solid $col1;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.btn {
+    border: 1px solid $col4;
+    background-color: $col1;
+    color: $col2;
+
+    :hover {
+        color: $col4;
+    }
+}
+
+.text {
+    text-shadow: 2px 2px black;
+}
+
+
+@keyframes animacion {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@media (max-width:600px) {
+    .form-container {
+        width: 350px;
+        background-color: $col2;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 10px;
+        color: $col1;
+        border: 1px solid $col4;
+    }
+}
